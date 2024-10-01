@@ -15,7 +15,7 @@ namespace Tyuiu.ZaicevYaA.Sprint1.Task0.V28
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* Спринт #1                                                     *");
             Console.WriteLine("* Тема: Базовые навыки работы C#                                *");
-            Console.WriteLine("* Задание #1                                                    *");
+            Console.WriteLine("* Задание #0                                                    *");
             Console.WriteLine("* Вариант #28                                                   *");
             Console.WriteLine("* Выполнил : Зайцев Ярослав Александрович | ПКТб-24-1           *");
             Console.WriteLine("*****************************************************************");
