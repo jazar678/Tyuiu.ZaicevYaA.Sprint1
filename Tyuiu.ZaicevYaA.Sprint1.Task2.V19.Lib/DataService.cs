@@ -5,7 +5,7 @@ namespace Tyuiu.ZaicevYaA.Sprint1.Task2.V19.Lib
     {
         public double ConvertInchToKm(int value)
         {
-            return Math.Round(2.54 * value, 3);
+            return Math.Round(0.0254 * value, 3);
         }
     }
 }
