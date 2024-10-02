@@ -28,7 +28,7 @@ namespace Tyuiu.ZaicevYaA.Sprint1.Task0.V28
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* 48 / 12 - 48 / 6 / 4                                          *");
             Console.WriteLine("*****************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ :                                                   *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                    *");
             Console.WriteLine("*****************************************************************");
             Console.WriteLine(ds.Calculate());
             Console.ReadKey();
