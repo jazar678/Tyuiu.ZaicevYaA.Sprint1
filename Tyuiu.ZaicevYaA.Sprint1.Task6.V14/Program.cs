@@ -22,12 +22,21 @@ namespace Tyuiu.ZaicevYaA.Sprint1.Task6.V14
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ :                                             *");
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("*                                                               *");
-            Console.WriteLine("* Введите X                                                     *");
-            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите текст:"); 
+            string value = Console.ReadLine(); 
+            var checker = new DataService();
+            if (checker.CheckLowerCaseRusLetters(value))
+            {
+                Console.WriteLine("Строка состоит только из строчных русских букв.");
+            }
+            else
+            {
+                Console.WriteLine("Строка содержит символы, отличные от строчных русских букв.");
+            }
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                    *");
             Console.WriteLine("*****************************************************************");
-            Console.WriteLine(ds.FahrenheitToСelsius(x));
+            Console.WriteLine(ds.CheckLowerCaseRusLetters(value));
             Console.ReadKey();
         }
     }
